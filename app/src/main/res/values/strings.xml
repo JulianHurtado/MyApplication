@@ -5,5 +5,12 @@
     <string name="correo">Correo Electronico</string>
     <string name="documento">Numero de Documento</string>
     <string name="guardar">GUARDAR</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="cine">Cine</string>
+    <string name="nadar">Nadar</string>
+    <string name="futbol">Leer</string>
+    <string name="leer">Leer</string>
+    <string name="series">Series</string>
 
 </resources>

@@ -44,6 +44,59 @@
                   android:inputType="number"
                   android:hint="@string/documento"/>
 
+        <RadioGroup android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <RadioButton android:layout_width="0dp"
+                             android:layout_height="wrap_content"
+                             android:id="@+id/rbMasculino"
+                             android:layout_weight="1"
+                             android:text="@string/masculino"
+                             android:onClick="onRadioButtonClicked" />
+
+                <RadioButton android:layout_width="0dp"
+                             android:layout_height="wrap_content"
+                             android:id="@+id/rbFemenino"
+                             android:layout_weight="1"
+                             android:text="@string/femenino"
+                             android:onClick="onRadioButtonClicked" />
+        </RadioGroup>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                <CheckBox android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:id="@+id/cbCine"
+                          android:text="@string/cine"
+                          android:onClick="onCheckBoxClicked"/>
+
+                <CheckBox android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:id="@+id/cbNadar"
+                          android:text="@string/nadar"
+                          android:onClick="onCheckBoxClicked"/>
+
+                <CheckBox android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:id="@+id/cbLeer"
+                          android:text="@string/leer"
+                          android:onClick="onCheckBoxClicked"/>
+
+                <CheckBox android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:id="@+id/cbSeries"
+                          android:text="@string/series"
+                          android:onClick="onCheckBoxClicked"/>
+
+
+        </LinearLayout>
+
+
         <Button android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/guardar"
