@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Formulario de Registro</string>
+    <string name="formulario">FORMULARIO</string>
+    <string name="nombre">Nombre: </string>
+    <string name="correo">Correo Electronico</string>
+    <string name="documento">Numero de Documento</string>
+    <string name="guardar">GUARDAR</string>
+
+</resources>
