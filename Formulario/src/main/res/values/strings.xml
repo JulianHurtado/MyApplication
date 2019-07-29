@@ -12,5 +12,17 @@
     <string name="futbol">Leer</string>
     <string name="leer">Leer</string>
     <string name="series">Series</string>
+    <string name="password">Password</string>
+    <string name="password2">Repeat Password</string>
+    <string name="pick_date">Fecha de Nacimiento</string>
+    <string name="ciudad">Ciudad de Nacimiento</string>
+
+    <string-array name="cityOptions">
+        <item> </item>
+        <item>Medellin</item>
+        <item>Envigado</item>
+        <item>La Ceja</item>
+        <item>Sabaneta</item>
+    </string-array>
 
 </resources>

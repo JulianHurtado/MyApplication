@@ -32,17 +32,45 @@
                           android:id="@+id/etNombre"/>
         </LinearLayout>
 
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/password"
+                          android:textSize="16sp"
+                          android:textColor="@color/black"/>
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/etPassword"
+                          android:password="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/password2"
+                          android:textSize="16sp"
+                          android:textColor="@color/black"/>
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/etPassword2"
+                          android:password="true"
+                />
+        </LinearLayout>
+
         <EditText android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:id="@+id/etCorreo"
                   android:inputType="textEmailAddress"
                   android:hint="@string/correo"/>
-
-        <EditText android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:id="@+id/etCedula"
-                  android:inputType="number"
-                  android:hint="@string/documento"/>
 
         <RadioGroup android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -92,6 +120,50 @@
                           android:id="@+id/cbSeries"
                           android:text="@string/series"
                           android:onClick="onCheckBoxClicked"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/bnFecha"
+                        android:text="@string/pick_date"
+                        android:onClick="showDatePickerDialog" />
+
+                <TextView android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:id="@+id/txNacimiento"
+                          android:gravity="center"
+                          android:textSize="25dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:id="@+id/txciudad"
+                          android:text="@string/ciudad"
+                          android:gravity="center"
+                />
+
+                <Spinner  android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:id="@+id/spCiudad"
+                />
 
 
         </LinearLayout>
